@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println("Enter the given number:");
+	    Scanner sc=new Scanner(System.in);
+		int rev;
+		int even=0;
+		int odd=0;
+		while(num>0){
+		    rev=num%10;
+		    if(rev%2==0){
+		        even++;
+		    }
+		    else{
+		        odd++;
+		    }
+
+		}
+
+		System.out.println("the total number of even numbers in given number is:"+even);
+		System.out.println("the total number of odd numbers in given number is:"+odd);
+		
+	}
+}
