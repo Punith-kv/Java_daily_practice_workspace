@@ -18,3 +18,21 @@ public class Main
 		
 	}
 }
+
+//Reverse of a string using string buffer
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println("Enter the string : ");
+		Scanner sc =new Scanner(System.in);
+		String rev;
+		rev=sc.nextLine();
+		StringBuffer result=new StringBuffer(rev);
+	    
+	
+		
+		System.out.println("the rev string is :"+result.reverse());
+		
+	}
+}
