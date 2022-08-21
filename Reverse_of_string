@@ -1,0 +1,20 @@
+//reverse of a string
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println("Enter the string : ");
+		Scanner sc =new Scanner(System.in);
+		String rev;
+		rev=sc.nextLine();
+		String result="";
+		int i;
+		int len=rev.length();
+		for(i=len-1;i>=0;i--){
+		    result=result+rev.charAt(i);
+		}
+		
+		System.out.println("the rev string is :"+result);
+		
+	}
+}
