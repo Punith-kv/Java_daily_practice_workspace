@@ -12,3 +12,33 @@ public class Main
 		System.out.println("After Swapping values are..."+a+" "+b);
 	}
 }
+
+
+//swapping of two numbers using temp variable
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		int a=10,b=20;
+		System.out.println("Before Swapping values are..."+a+" "+b);
+		int t=a;
+		a=b;
+		b=t;
+		System.out.println("After Swapping values are..."+a+" "+b);
+	}
+}
+
+//swapping of two numbers using bitwise XOR
+
+public class Main
+{
+	public static void main(String[] args) {
+		int a=10,b=20;
+		System.out.println("Before Swapping values are..."+a+" "+b);
+		a=a^b;
+		b=a^b;
+		a=a^b;
+		System.out.println("After Swapping values are..."+a+" "+b);
+	}
+}
