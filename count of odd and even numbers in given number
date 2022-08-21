@@ -15,6 +15,7 @@ public class Main
 		    else{
 		        odd++;
 		    }
+		    num=num/10;
 
 		}
 
