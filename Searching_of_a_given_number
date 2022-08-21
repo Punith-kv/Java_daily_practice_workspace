@@ -1,0 +1,21 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int a[]={1,2,3,4,5,6};
+	    int Search_term=2,i;
+	    boolean flag=false;
+	    for(i=0;i<a.length;i++){
+	        if(a[i]==Search_term){
+	            flag=true;
+	        }
+	    }
+	    if(flag==true){
+	        System.out.println("Search_term FOUND");
+	    }
+	    else{
+	        System.out.println("Search_term not FOUND");
+	    }
+		
+	}
+}
