@@ -1,0 +1,51 @@
+//palindrome of a string
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	System.out.println("Enter the String: ");
+	Scanner sc=new Scanner(System.in);
+	int i;
+	String str=sc.next();
+	String org_str=str;
+	String rev="";
+	int len=str.length();
+	for(i=len-1;i>=0;i--){
+	    rev=rev+str.charAt(i);
+	}
+
+    if(org_str.equals(rev)){
+         System.out.println("the given string is a palindrome");
+    }
+    else{
+        System.out.println("the given string is not a palindrome");
+    }
+
+	}
+}
+
+//palindrome of a number
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the number");
+	    int num=sc.nextInt();
+	    int org_num=num;
+	    int rev=0;
+	    while(num!=0){
+	        rev=rev*10+num%10;
+	        num=num/10;
+	    }
+	    if(org_num==rev){
+	        System.out.println("the given number is palindrome");
+	    }
+	    else{
+	        System.out.println("the given number is not a palindrome");
+	    }
+		
+	}
+}
+
