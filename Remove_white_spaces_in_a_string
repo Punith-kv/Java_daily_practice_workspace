@@ -1,0 +1,11 @@
+//To Remove White Spaces in String
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    String a="welcome to my world";
+		System.out.println("Before removing white_spaces : "+a);
+		a=a.replaceAll(" ","");
+		System.out.println("After removing white_spaces : "+a);
+	}
+}
