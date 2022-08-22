@@ -1,0 +1,11 @@
+//to count total occurense of a charachter in a string
+public class Main
+{
+	public static void main(String[] args) {
+	    String s="welcome to the java programming";
+	    int total_count=s.length();
+	    int total_count_update=s.replaceAll("a","").length();
+	    
+		System.out.println("Total count of a is "+(total_count-total_count_update));
+	}
+}
