@@ -1,0 +1,26 @@
+import java.util.Arrays;
+public class Main
+{
+	public static void main(String[] args) {
+		int a[]={43,5,2,1,9,50,6};
+		//to sort in Ascending order 
+		Arrays.sort(a);
+		System.out.println("Sorting the Array in an Ascending order: "+Arrays.toString(a));
+		
+		
+	}
+}
+//Descending order
+//collections does not support primitive data types.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Integer a[]={43,5,2,1,9,50,6};
+		//to sort in Descending order 
+		Arrays.sort(a,Collections.reverseOrder());
+		System.out.println("Sorting the Array in an Ascending order: "+Arrays.toString(a));
+		
+		
+	}
+}
